@@ -1,0 +1,285 @@
+header{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f01425ca-2331-4a5b-8970-c7bce93d3e87/d2woort-943a34cd-303b-492e-8c81-63b88b5b1743.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YwMTQyNWNhLTIzMzEtNGE1Yi04OTcwLWM3YmNlOTNkM2U4N1wvZDJ3b29ydC05NDNhMzRjZC0zMDNiLTQ5MmUtOGM4MS02M2I4OGI1YjE3NDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.swIc6nmiJS98HQd2wgPai9sAYBNT6qHetRRTG0HPT9Q);
+    object-fit: contain;
+    padding: 40px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+     position: absolute;
+     top: 70px;
+     right: 0;
+     font-family: 'Metal Mania', system-ui; /*link google fonts*/
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a{
+    text-transform:uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: red;
+    text-decoration:line-through;
+}
+
+
+.ul2{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.ul2 li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: aqua;
+    margin: 0 1.5%s;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.ul2 li:hover{
+    border-color:brown;
+    
+}
+
+.ul2 li:active{
+    border-color: green;
+}
+
+.ul2 h2{
+    font-size: 30px;;
+    font-weight: bold;
+}
+
+.ul2 li:hover h2{
+    font-size: 35px;
+}
+
+.date{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.album{
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+}
+
+.copy{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-bloque{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.chbox{
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 40px 40px;
+
+}
+
+thead{
+    background-color: plum;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+
+/* css para pagina 1 */
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-family: "shirensregular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    margin: 0 0 1em;
+    clear: left;
+    font-family: 'Metal Mania', system-ui; /*link google fonts*/
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
+}
+
+.principal{
+    background-color: white;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.logotexto{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(white, gray);
+}
+
+.mapacontenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p{
+    margin: 0  0 2em;
+    text-align: center;
+}
+
+.clasevideos{
+    padding: 3em 0;
+    background: gray;
+}
+
+.video{
+    width: 540px;
+    margin: 0 auto;
+}
+
+.listas{
+    padding: 3em 0;
+    background: linear-gradient(gray, black);
+}
+
+.contenidodiff{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listasdif{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:nth-child(5){
+    font-weight: bold;
+}
+
+.items::before{
+    content: "✶";
+}
+
+.imgdif{
+    width: 60%;
+    transition: .5s;
+    box-shadow: 10px 10px 30px 10px black;
+} 
+
+.imgdif:hover{
+     opacity: 50%;
+}
+
+@media screen and (max-width:900px){
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapacontenido, .contenidodiff, .video{
+        width: auto;
+    }
+    .imgdif, .listasdif{
+        width: 100%;
+    }
+}
+
+
+/* notas */
+
+/* sectores */
+/* Elemeto < hijo  -- aplicar estilo unicamente al hijo de siertos elementos ej. main < p: seran unicamente los <p> dentro del main pero fuera de culauqier otra*/
+
+/* Elemento + Elemento -- aplicar estilo a un elemento que esta especificamente despues de otro ej. img + p: modificar el <p> que siga de una imagen*/
+
+/* Elemento ~ Elemento -- aplicar estilo a todos los elementos que estan especificamente despues de otro ej. img ~ p: modificar los <p> que siga de una imagen*/
